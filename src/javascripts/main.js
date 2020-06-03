@@ -1,3 +1,8 @@
+import studentList from './components/student-list/studentList';
 import '../styles/main.scss';
 
-console.error('whats this thing do again?');
+const init = () => {
+  studentList.createStudentList();
+};
+
+init();

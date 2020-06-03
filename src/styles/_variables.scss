@@ -1,0 +1,10 @@
+@mixin default-font($fontsize) {
+  color: white;
+  font-size: $fontsize;
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+
+@mixin zero-margin {
+  margin: 0
+}

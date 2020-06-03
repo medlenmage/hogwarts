@@ -1,0 +1,9 @@
+.student-list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+
+  li {
+    border: 2px solid darkgreen;
+  }
+}
